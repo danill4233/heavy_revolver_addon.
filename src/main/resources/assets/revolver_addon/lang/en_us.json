@@ -1,0 +1,6 @@
+{
+  "item.revolver_addon.heavy_revolver": "Heavy Revolver",
+  "item.revolver_addon.heavy_round": "Heavy Revolver Round",
+  "tooltip.revolver_addon.rounds": "Rounds: %s/%s",
+  "tooltip.revolver_addon.hint": "Right-click: fire. Shift+Right-click: reload."
+}

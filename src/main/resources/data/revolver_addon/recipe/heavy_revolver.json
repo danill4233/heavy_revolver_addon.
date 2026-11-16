@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "CFB", " I "],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "C": { "item": "minecraft:copper_ingot" },
+    "F": { "item": "minecraft:flint" },
+    "B": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "revolver_addon:heavy_revolver", "count": 1 }
+}

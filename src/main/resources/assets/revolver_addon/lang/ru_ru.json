@@ -1,0 +1,6 @@
+{
+  "item.revolver_addon.heavy_revolver": "Крупнокалиберный револьвер",
+  "item.revolver_addon.heavy_round": "Патрон для тяжёлого револьвера",
+  "tooltip.revolver_addon.rounds": "Патроны: %s/%s",
+  "tooltip.revolver_addon.hint": "ПКМ — выстрел. Shift+ПКМ — перезарядка."
+}

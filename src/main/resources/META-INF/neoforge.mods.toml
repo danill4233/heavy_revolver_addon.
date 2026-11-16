@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "Heavy Revolver (Iron's Arms 'n Artifice addon)"
+description = "Adds a large-caliber revolver."
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+# ВАЖНО: проверь точный modId в META-INF/neoforge.mods.toml внутри jar основного мода.
+# Когда убедишься, смени type на "required".
+[[dependencies.${mod_id}]]
+modId = "irons_arms_n_artifice"
+type = "optional"
+versionRange = "[1.1.0,)"
+ordering = "AFTER"
+side = "BOTH"
